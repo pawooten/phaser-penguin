@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1",
-    "phaser": "^3.80.0"
+    "phaser": "^3.80.0",
+    "typescript": "^5.3.3"
   }
 }
