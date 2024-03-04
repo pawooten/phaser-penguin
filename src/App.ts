@@ -3,7 +3,7 @@ import Phaser from "phaser";
 class Example extends Phaser.Scene
 {
     preload ()
-    {s
+    {
         this.load.image('cloud', 'assets/cloud.png');
     }
     create ()
